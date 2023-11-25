@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.Instagram {
+  max-width: 250px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heads_up {
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo_header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.instagram_logo img {
+  max-width: 70%;
+}
+
+.logo_header p {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.or {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.or-line {
+  flex: 1;
+  height: 1px;
+  background-color: #999;
+  margin: 0 10px;
+}
+
+.or p {
+  font-size: 12px;
+  color: #999;
+  font-weight: bold;
+}
+
+.input_box {
+  margin-bottom: 20px;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+form input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.facebook {
+  width: 100%;
+  padding: 5px;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+.info {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.terms {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.account {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.GTA {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.apps {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.apps img {
+  max-width: 120px;
+  margin: 0 2px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 80px;
+  color: #999;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 599px) {
+  .Instagram {
+    max-width: 80%;
+    margin: 50px auto;
+  }
+
+  .instagram_logo img {
+    max-width: 80%;
+  }
+
+  .input_box {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  form input {
+    font-size: 14px;
+  }
+
+  .facebook {
+    padding: 8px;
+  }
+
+  .facebook img {
+    max-width: 30px;
+  }
+
+  .info,
+  .terms,
+  .account,
+  .GTA,
+  .apps img {
+    margin-top: 10px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .footer ul {
+    flex-wrap: wrap;
+    justify
